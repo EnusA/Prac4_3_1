@@ -4,12 +4,12 @@ package com.EnusA.Prac4_3_1;
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        Calculator calc = new Calculator(3,2,'e');
+public class App {
+    public static void main(String[] args) {
+        //fetch f = new fetch();
+        //System.out.println("Answer = " + f.answer(2, 3));
 
-        System.out.println( "The answer is: " + calc.getAnswer());
+        calculate c = new calculate();
+        System.out.println("Answer= " + c.answer(2, 3));
     }
 }
